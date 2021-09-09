@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.2, 2021-09-09T09:50:45. -->
+<!-- Written by QtCreator 4.12.2, 2021-09-09T15:01:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -306,9 +306,8 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">AdresseIPv42</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/USERS/ELEVES/SNIR2020/rly/Qt/AdresseIPv4/AdresseIPv4.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/USERS/ELEVES/SNIR2020/rly/Qt/AdresseIPv4/AdresseIPv4.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/USERS/ELEVES/SNIR2020/rly/Apprendre_Cpp/01_AdresseIPv4/AdresseIPv4.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/USERS/ELEVES/SNIR2020/rly/Apprendre_Cpp/01_AdresseIPv4/AdresseIPv4.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
