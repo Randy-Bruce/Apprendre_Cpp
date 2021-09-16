@@ -6,26 +6,10 @@ using namespace std;
 
 void AfficherTableau(unsigned char *tab);
 
-// ------------------------------------------------------------------------------ Deuxieme Programme
-int main()
-{
-    unsigned char adresse[4]= {192,168,1,1};
-    unsigned char reseau[4];
-    ipv4 * uneAdresse = new ipv4(adresse, 24); // instanciation de la classe IPv4
-    ipv4 adresseCopie = *uneAdresse; // l'instance est recopiée dans une autre
-    cout << "Adresse réseau avant : ";
-    adresseCopie.ObtenirAdresseReseau(reseau);
-    AfficherTableau(reseau);
-    delete uneAdresse; // destruction de la première instance
-    cout << "Adresse réseau après destruction : ";
-    adresseCopie.ObtenirAdresseReseau(reseau);
-    AfficherTableau(reseau);
-    return 0;
-}
 
 
 // ------------------------------------------------------------------------------ Premier Programme
-/*
+
 int main()
 {
     unsigned char adresse[4] = {192,168,1,1};
@@ -65,5 +49,23 @@ void AfficherTableau(unsigned char *tab)
             cout << "." ;
     }
     cout << endl;
+}
+
+// ------------------------------------------------------------------------------ Deuxieme Programme
+/*
+int main()
+{
+    unsigned char adresse[4]= {192,168,1,1};
+    unsigned char reseau[4];
+    ipv4 * uneAdresse = new ipv4(adresse, 24); // instanciation de la classe IPv4
+    ipv4 adresseCopie = *uneAdresse; // l'instance est recopiée dans une autre
+    cout << "Adresse réseau avant : ";
+    adresseCopie.ObtenirAdresseReseau(reseau);
+    AfficherTableau(reseau);
+    delete uneAdresse; // destruction de la première instance
+    cout << "Adresse réseau après destruction : ";
+    adresseCopie.ObtenirAdresseReseau(reseau);
+    AfficherTableau(reseau);
+    return 0;
 }
 */

@@ -3,7 +3,7 @@
 #include <math.h>
 
 // ----------------------------------------------------------------------------------------------- Premier Progamme
-/*
+
 ipv4::ipv4(const unsigned char * _adresse,const unsigned char _cidr)
 {
     adresse = new unsigned char [4];
@@ -103,9 +103,10 @@ unsigned int ipv4::ObtenirNombreMachine()
         nb += NbBitA1(masque[i]);
     return exp2(32 - nb) - 2;
 }
-*/
+
 
 // ------------------------------------------------------------------------------------------- Deuxieme Programme
+/*
 ipv4::ipv4()
 {
     adresse = new unsigned char [4];
@@ -142,5 +143,5 @@ ipv4 &ipv4::operator=(const ipv4 &_ipv4)
     return *this;
 }
 
-
+*/
 

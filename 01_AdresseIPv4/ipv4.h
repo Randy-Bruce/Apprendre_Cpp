@@ -1,5 +1,5 @@
 ﻿// ------------------------------------------------------------------------ Premier Programme
-/*
+
 #ifndef IPV4_H
 #define IPV4_H
 #include <math.h>
@@ -25,10 +25,10 @@ public:
 };
 
 #endif // IPV4_H
-*/
+
 
 // ----------------------------------------------------------------------- Deuxieme Programme
-
+/*
 #ifndef _IPV4_H
 #define _IPV4_H
 class ipv4
@@ -52,3 +52,4 @@ class ipv4
     void ObtenirAdresseDiffusion(unsigned char * _diffusion);
 };
 #endif
+*/
