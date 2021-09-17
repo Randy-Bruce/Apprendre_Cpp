@@ -7,12 +7,13 @@ using namespace std;
 class Barre
 {
 public:
-    Barre(const string &_reference, const double longueur, const double densite, const string &_nom);
-private:
+    Barre(const string &_reference, const double _longueur, const double _densite, const string &_nomAlliage);
+    ~Barre();
+protected:
     string reference;
     double longueur;
     double densite;
-    string nom;
+    string nomAlliage;
 
 };
 

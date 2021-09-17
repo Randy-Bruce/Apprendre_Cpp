@@ -3,12 +3,11 @@
 
 using namespace std;
 
-Barre::Barre(const string &_reference, const double longueur, const double densite, const string &_nom):
+Barre::Barre(const string &_reference, const double _longueur, const double _densite, const string &_nomAlliage):
     reference(_reference),
     longueur(_longueur),
     densite(_densite),
-    nom(_nom)
-
+    nomAlliage(_nomAlliage)
 
 {
 
