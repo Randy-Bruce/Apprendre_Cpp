@@ -8,11 +8,12 @@
 class BarreRonde : public Barre
 {
 public:
-    BarreRonde(const string &_reference, const double _longueur, const double _densite, const string &_nomAlliage, const double _diametreRond);
+    BarreRonde(const string &_reference, const double _longueur, const double _densite, const string &_nomAlliage, const double _diametreCercle);
     ~BarreRonde();
-    float CalculerSectionRonde();
+    float CalculerSectionCercle();
+    float CalculerMasseCercle();
 private:
-   double diametreRond;
+   double diametreCercle;
 };
 
 #endif // BARRERONDE_H

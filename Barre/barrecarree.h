@@ -7,11 +7,12 @@
 class BarreCarree : public Barre
 {
 public:
-    BarreCarree(const string &_reference, const double _longueur, const double _densite, const string &_nomAlliage, const double _hauteurCarre);
+    BarreCarree(const string &_reference, const double _longueur, const double _densite, const string &_nomAlliage, const double _hauteurCarree);
     ~BarreCarree();
-    float CalculerSectionCercle();
+    float CalculerSectionCarree();
+    float CalculerMasseCarree();
 private:
-    double hauteurCarre;
+    double hauteurCarree;
 
 };
 

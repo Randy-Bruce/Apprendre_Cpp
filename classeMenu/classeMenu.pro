@@ -11,4 +11,5 @@ HEADERS += \
     menu.h
 
 DISTFILES += \
+    ../../compteEpargne.txt \
     menu.txt

@@ -20,5 +20,14 @@ BarreRectangle::~BarreRectangle()
 
 float BarreRectangle::CalculerSectionRectangle()
 {
-    return hauteurRectangle * largeurRectangle;
+    float section = 0;
+    section = hauteurRectangle * largeurRectangle;
+    return section;
+}
+
+float BarreRectangle::CalculerMasseRectangle()
+{
+    float masse = 0;
+    masse = longueur * CalculerSectionRectangle() * densite;
+    return masse;
 }

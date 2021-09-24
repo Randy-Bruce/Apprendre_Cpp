@@ -10,6 +10,7 @@ public:
     BarreRectangle(const string &_reference, const double _longueur, const double _densite, const string &_nomAlliage, const double _hauteurRectangle, const double _largeurRectangle);
     ~BarreRectangle();
     float CalculerSectionRectangle();
+    float CalculerMasseRectangle();
 private:
     double hauteurRectangle;
     double largeurRectangle;
