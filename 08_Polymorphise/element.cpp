@@ -4,7 +4,8 @@ Element::Element(const int _numero,const int _vitesse):
     numero(_numero),
     vitesse(_vitesse)
 {
-    vitesse=1;
+    numero = 0;
+    vitesse = 1;
 }
 
 Element::~Element()

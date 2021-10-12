@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    Trajectoire uneTrajectoire(1,1,3);
+    Trajectoire uneTrajectoire(1);
     uneTrajectoire.Afficher();
     Segment segment1(9,0,1,3);
     segment1.Afficher();

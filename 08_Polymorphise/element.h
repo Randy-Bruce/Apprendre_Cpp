@@ -7,7 +7,7 @@ class Element
 public:
     Element(const int _numero, const int _vitesse);
     virtual ~Element();
-    virtual void Afficher();
+    virtual void Afficher()=0;
     int getNumero() const;
     void setNumero(int value);
 

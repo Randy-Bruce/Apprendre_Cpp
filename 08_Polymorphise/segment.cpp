@@ -12,5 +12,5 @@ Segment::Segment(const double _longeur, const double _angle,const int _numero,co
 
 void Segment::Afficher()
 {
-    cout << "(" << numero << ") " << "SEGMENT L = " << longueur << "       A = " << angle << "       V = "<< vitesse << endl;
+    cout << "(" << getNumero() << ") " << "SEGMENT L = " << longueur << "       A = " << angle << "       V = "<< vitesse << endl;
 }
