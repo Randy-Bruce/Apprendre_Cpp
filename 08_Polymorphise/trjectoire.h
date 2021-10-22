@@ -7,7 +7,7 @@ class Trajectoire
 public:
     Trajectoire(const int _nbEtapesMaxi);
     ~Trajectoire();
-    bool Ajouter(const Element * _Ajouter);
+    bool Ajouter(const Element *_pElement);
     void Afficher();
 private:
     Element **parcours;

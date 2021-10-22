@@ -5,7 +5,10 @@ Element::Element(const int _numero,const int _vitesse):
     vitesse(_vitesse)
 {
     numero = 0;
-    vitesse = 1;
+    if (vitesse==0){
+        vitesse = 1;
+    }
+
 }
 
 Element::~Element()
@@ -18,10 +21,6 @@ void Element::Afficher()
 
 }
 
-int Element::getNumero() const
-{
-    return numero;
-}
 
 void Element::setNumero(int value)
 {

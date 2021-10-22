@@ -1,4 +1,5 @@
 #include "trjectoire.h"
+#include "element.h"
 #include <iostream>
 using namespace std;
 
@@ -13,10 +14,6 @@ Trajectoire::~Trajectoire()
 
 }
 
-bool Trajectoire::Ajouter(const Element *_Ajouter)
-{
-
-}
 
 void Trajectoire::Afficher()
 {
